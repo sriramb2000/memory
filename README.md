@@ -10,13 +10,13 @@ Clone the repository
 
 Install the dependencies
 
-`pip install -r requirements.txt`
+`python3 -m pip install --user -r requirements.txt`
 
 ## Running the game
 
 From the root:
 
-`python src/main.py`
+`python3 src/main.py`
 
 ## Running Tests
 
