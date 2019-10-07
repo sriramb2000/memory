@@ -7,8 +7,8 @@ if __name__ == "__main__":
         num_players = int(input("Please enter a number of players between 2 and 4: "))
     # Should be even number >= 2*numplayers
     num_cards = int(input("How many cards?"))
-    while num_cards < 2*num_players or num_cards > 52:
-        num_cards = int(input("Please enter a number of cards greater or equal to twice the number of players and less than or equal to 52:"))
+    while num_cards < 2*num_players or num_cards > 52 or num_cards%2 == 1:
+        num_cards = int(input("Please enter an even number of cards greater or equal to twice the number of players and less than or equal to 52:"))
     # request player names
     playr_names = []
     for i in range(num_players):

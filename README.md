@@ -14,4 +14,12 @@ Install the dependencies
 
 ## Running the game
 
-`python main.py`
+From the root:
+
+`python src/main.py`
+
+## Running Tests
+
+Each module under `src/logic` has corresponding tests of the format `**.ut.py` where applicable. Navigate to the module path and then run (for example):
+
+`python card.ut.py`
