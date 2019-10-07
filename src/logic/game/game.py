@@ -32,7 +32,7 @@ class Game():
             self.deck.cards[index].selected = True
             self.display_game()
             #wait for user to see
-            input()
+            input("Hit Enter once you've taken a look at the cards:")
         
         #If move is a match, return 1, if first select, return 0, if no match, return -1
         if in_turn and self.deck.cards[self.selected_card].is_pair(self.deck.cards[index]):
