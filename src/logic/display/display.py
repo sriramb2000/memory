@@ -67,13 +67,3 @@ class Display(object):
             res.append(index.center(CARD_WIDTH))
         return ''.join(res)
         
-# deck = Deck(19)
-# card = deck.cards[3]
-# card.color = Back.RED
-# card.matched = True
-# card.selected = False
-# deck.cards[4].selected = False
-# d = Display(10, deck.cards)
-
-# #print(d.index_str(d.grid[0], 0))
-# d.display()
